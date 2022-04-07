@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+        <!--Camera-->
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+
+        <!--Sky-->
+        <a-sky color="#6EBAA7">
+            
+        </a-sky>
+
+        <!--ring-->
+        <a-entity>
+            <a-ring position="1 0 -5" radius="0.2" color="red"></a-ring>
+        </a-entity>
+
+        <!--table-->
+        <a-entity>
+            <a-box position="7 -2 -5" radius="0.2" color="#E6BA95" width="15" depth="10" height="0.8"></a-box>
+        </a-entity>
+
+        <!--octa-->
+        <a-entity>
+            <a-octahedron position="3 0 -5" radius="0.4" color="blue"></a-octahedron>
+        </a-entity>
+
+        <!--sphere-->
+        <a-entity>
+            <a-sphere position="5 0 -5" radius="0.6" color="yellow"></a-sphere>
+        </a-entity>
+
+        <!--box-->
+        <a-entity>
+            <a-box position="7 0 -5" radius="0.2" color="grey"></a-box>
+        </a-entity>
+
+        <!--cylinder-->
+        <a-entity>
+            <a-cylinder position="9 0 -5" radius="0.2" color="cyan"></a-cylinder>
+        </a-entity>
+
+        <!--cone-->
+        <a-entity>
+            <a-cone position="11 0 -5" radius="0.2" color="blue"></a-cone>
+        </a-entity>
+
+        <!--torus-->
+        <a-entity>
+            <a-torus-knot position="13 0 -5" radius="0.2" color="black"></a-torus-knot>
+        </a-entity>
+
+
+    </a-scene>
+</body>
+
+</html>
